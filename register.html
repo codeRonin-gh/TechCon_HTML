@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register | TechCon 2024</title>
+</head>
+<body>
+
+  <header>
+    <h1>TechCon 2024</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Register for TechCon 2024</h2>
+      <form action="#" method="post">
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="track">Preferred Track:</label><br>
+        <select id="track" name="track">
+          <option value="ai">Artificial Intelligence</option>
+          <option value="web">Web Development</option>
+          <option value="design">UI/UX Design</option>
+          <option value="cyber">Cybersecurity</option>
+        </select><br><br>
+
+        <label for="experience">Experience Level:</label><br>
+        <input type="radio" id="beginner" name="experience" value="Beginner" checked>
+        <label for="beginner">Beginner</label><br>
+        <input type="radio" id="intermediate" name="experience" value="Intermediate">
+        <label for="intermediate">Intermediate</label><br>
+        <input type="radio" id="advanced" name="experience" value="Advanced">
+        <label for="advanced">Advanced</label><br><br>
+
+        <label for="newsletter">
+          <input type="checkbox" id="newsletter" name="newsletter">
+          Subscribe to TechCon Newsletter
+        </label><br><br>
+
+        <button type="submit">Register Now</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
