@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>TechCon 2024</title>
 </head>
 <body>
-
+  <!-- Header: conference name and navigation menu -->
   <header>
     <h1>TechCon 2024</h1>
     <nav>
-      <a href="about.html">About</a>
-      <a href="schedule.html">Schedule</a>
-      <a href="register.html">Register</a>
+      <a href="about.html">About</a> |
+      <a href="schedule.html">Schedule</a> |
+      <a href="register.html">Register</a> |
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
+  <!-- Main section: introduction + embedded promo video -->
   <main>
     <section>
-      <p>Welcome to TechCon 2024 — the biggest tech event of the year! Join innovators, creators, and thinkers to shape the future.</p>
-      <video controls>
-        <source src="promo.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <p>Welcome to TechCon 2024! Join us for an exciting journey into technology innovation.</p>
+
+      <iframe 
+        width="600" 
+        height="340" 
+        src="https://www.youtube.com/embed/B_-HF-RNdjw" 
+        title="TechCon 2024 Promotional Video" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen 
+        aria-label="Promotional video for TechCon 2024">
+      </iframe>
     </section>
   </main>
 
+  <!-- Footer with copyright info -->
   <footer>
-    <p>&copy; 2024 TechCon. All rights reserved.</p>
+    <p>© TechCon 2024. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
-
