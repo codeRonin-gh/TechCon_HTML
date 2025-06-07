@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>TechCon 2024</title>
+  <meta charset="UTF-8">
+  <title>TechCon 2024 - Homepage</title>
 </head>
 <body>
-  <!-- Header: conference name and navigation menu -->
+
+  <!-- Header -->
   <header>
     <h1>TechCon 2024</h1>
     <nav>
-      <a href="about.html">About</a> |
-      <a href="schedule.html">Schedule</a> |
-      <a href="register.html">Register</a> |
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <!-- Main section: introduction + embedded promo video -->
+  <!-- Main Content -->
   <main>
     <section>
-      <p>Welcome to TechCon 2024! Join us for an exciting journey into technology innovation.</p>
-
-      <iframe 
-        width="600" 
-        height="340" 
-        src="https://www.youtube.com/embed/B_-HF-RNdjw" 
-        title="TechCon 2024 Promotional Video" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen 
-        aria-label="Promotional video for TechCon 2024">
-      </iframe>
+      <h2>Welcome to TechCon 2024</h2>
+      <p>TechCon 2024 is the ultimate conference for tech professionals, enthusiasts, and innovators. Join us for an unforgettable experience of learning, networking, and future-shaping ideas.</p>
+      
+      <video controls width="640" height="360">
+        <source src="media/techcon_promo.mp4" type="video/mp4">
+        <track src="media/techcon_subtitles.vtt" kind="subtitles" srclang="en" label="English">
+        Your browser does not support the video tag. Please <a href="media/techcon_promo.mp4">download the video</a> instead.
+      </video>
     </section>
   </main>
 
-  <!-- Footer with copyright info -->
+  <!-- Footer -->
   <footer>
-    <p>© TechCon 2024. All rights reserved.</p>
+    <p>&copy; 2024 TechCon Conference. All rights reserved. <strong>Copyright</strong>.</p>
   </footer>
+
 </body>
 </html>
